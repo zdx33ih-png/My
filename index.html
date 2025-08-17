@@ -45,7 +45,7 @@
       border-radius: 10px;
     }
 
-    /* زر No يهرب */
+    
     .no-btn {
       position: relative;
     }
@@ -55,7 +55,7 @@
 
   <div class="question-container container">
     <video class="local-gif" src="I.mp4" autoplay loop muted></video>
-    <h2 class="question">Do you love me?</h2>
+    <h2 class="question">Do you love me zezo?</h2>
 
     <div class="button-container">
       <button class="yes-btn btn js-yes-btn">Yes</button>
@@ -80,12 +80,12 @@
     const noBtn = document.querySelector('.js-no-btn');
     const resultContainer = document.getElementById('resultContainer');
 
-    // إظهار النتيجة عند الضغط على Yes
+    
     yesBtn.addEventListener('click', () => {
       resultContainer.style.display = 'block';
     });
 
-    // جعل زر No يهرب عند الاقتراب
+    
     noBtn.addEventListener('mouseover', () => {
       const x = Math.floor(Math.random() * (window.innerWidth - 100));
       const y = Math.floor(Math.random() * (window.innerHeight - 50));
